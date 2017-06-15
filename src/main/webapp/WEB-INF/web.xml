@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+		<servlet-name>ChocolateServlet</servlet-name>
+		<servlet-class>ie.cit.oossp.ChocolateServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ChocolateServlet</servlet-name>
+		<url-pattern>/ChocolateServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
